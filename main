@@ -1,0 +1,45 @@
+// Mash game for fun.
+// Fill in the spaces with null and separte with ,
+// 4 possible outcomes per array
+// Enter name down here
+
+var name = "null"
+console.log(name);
+
+console.log(
+    Math.floor(Math.random() * 8) + 1 // This will be how much times you cycle through (Pay attention to this once. Dont forget it!)
+); 
+var livingspace = ['Manison', 'Apartment', 'Shack', 'House'];
+var livingspaces = livingspace[Math.floor(Math.random() * livingspace.length)];
+
+console.log(livingspaces)
+
+var kids = ['null'];
+var kid = kids[Math.floor(Math.random() * kids.length)];
+
+console.log(kid);
+
+var mate = ['null'];
+var mates = mate[Math.floor(Math.random() * mate.length)];
+
+console.log(mates);
+
+var car = ['null'];
+var cars = car[Math.floor(Math.random() * car.length)];
+
+console.log(cars);
+
+var location = ['null'];
+var locations = location[Math.floor(Math.random() * location.length)];
+
+console.log(locations);
+
+var job = ['null'];
+var jobs = job[Math.floor(Math.random() * job.length)];
+
+console.log(jobs);
+
+var pet = ['null']
+var pets = pet[Math.floor(Math.random() * pet.length)];
+
+console.log(pets);
